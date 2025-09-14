@@ -12,8 +12,11 @@ export const Header = () => {
 
   const navLinks = [
     { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
     { label: "Episodes", href: "/episodes" },
     { label: "Hosts", href: "/hosts" },
+    { label: "Blog", href: "/blog" },
+    { label: "Contact", href: "/contact" },
   ];
 
   // lock body scroll when menu open
@@ -56,6 +59,7 @@ export const Header = () => {
                 src="/logo.jpeg"
                 alt="Logo"
                 fill
+                sizes="90%"
                 className="rounded-full object-cover"
                 priority
               />
