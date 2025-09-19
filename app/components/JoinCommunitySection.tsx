@@ -96,7 +96,7 @@ export const JoinCommunitySection = () => {
     {
       name: "YouTube",
       icon: Youtube, // Lucide icon
-      link: "hhttps://www.youtube.com/@bringbacktheporchpodcast",
+      link: "https://www.youtube.com/@bringbacktheporchpodcast",
     },
   ];
 
