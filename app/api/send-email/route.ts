@@ -45,8 +45,8 @@ export async function POST(request: Request) {
         // --- Email Sending Step (only runs if reCAPTCHA passes) ---
         // 4. Send the email using Resend
         const data = await resend.emails.send({
-            from: 'Onboarding <admin@bringbacktheporch.com>', // Replace with your verified domain
-            to: ['eliolooiz09@gmail.com',], // Your email for receiving messages
+            from: 'Bring Back The Porch <admin@bringbacktheporch.com>', // Replace with your verified domain
+            to: ['lynnette@bringbacktheporch.com', 'bernieleahy@bringbacktheporch.com'], // Your email for receiving messages
             subject: subject,
             replyTo: email,
             html: `
