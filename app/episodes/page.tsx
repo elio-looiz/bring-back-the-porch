@@ -3,6 +3,9 @@ import type { Episode } from "./components/types";
 import Parser from "rss-parser";
 import ParticlesBackground from "./components/ParticlesBackground";
 
+// Настраиваем ISR: обновление страницы раз в 1 час
+export const revalidate = 3600;
+
 // Загрузка RSS
 const getEpisodes = async (): Promise<Episode[]> => {
   const parser = new Parser();
